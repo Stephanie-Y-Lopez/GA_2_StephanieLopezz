@@ -1,0 +1,34 @@
+﻿<Window x:Class="GA_2_StephanieLopezz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GA_2_StephanieLopezz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Label Content="Stephanie Lopez- Guided Assigment 2" Canvas.Left="578" Canvas.Top="4" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Content="Last Name" Canvas.Left="345" Canvas.Top="61" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="First Name" Canvas.Left="21" Canvas.Top="61" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Display Your Full Name - Message Box" Canvas.Left="10" Canvas.Top="22" RenderTransformOrigin="-1.393,-4.133"/>
+        <TextBox x:Name="txtFirstName" Canvas.Left="93" TextWrapping="Wrap" Text="" Canvas.Top="65" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtLastName" Canvas.Left="416" TextWrapping="Wrap" Text="" Canvas.Top="65" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnFullName" Content="Display Full Name" Canvas.Left="609" Canvas.Top="64" HorizontalAlignment="Left" VerticalAlignment="Center" Width="168" Click="btnFullName_Click"/>
+        <Label Content="Perform a Calculation - Label" Canvas.Left="21" Canvas.Top="128" HorizontalAlignment="Left" VerticalAlignment="Center" Width="202"/>
+        <Label x:Name="Number1" Content="Number 1" Canvas.Left="21" Canvas.Top="204"/>
+        <Label x:Name="Number2" Content="Number 2" Canvas.Left="345" Canvas.Top="204"/>
+        <Label x:Name="bblEquation" Content="Sign" Canvas.Left="693" Canvas.Top="199" RenderTransformOrigin="0.651,1.317"/>
+        <TextBox x:Name="txtNumber1" Canvas.Left="93" TextWrapping="Wrap" Text="" Canvas.Top="207" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNumber2" Canvas.Left="416" TextWrapping="Wrap" Text="" Canvas.Top="207" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnAdd" Content="Add" Canvas.Left="153" Canvas.Top="243" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Click="Button_Click"/>
+        <Button x:Name="btnSub" Content="Subtract" Canvas.Left="476" Canvas.Top="243" HorizontalAlignment="Left" VerticalAlignment="Center" Width="60" Click="Button_Click_1"/>
+        <Label Content="Display a Letter from a Word - Text Box" Canvas.Left="21" Canvas.Top="305" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="Enter a Word" Canvas.Left="21" Canvas.Top="345"/>
+        <TextBox x:Name="txtWord" Canvas.Left="105" TextWrapping="Wrap" Text="" Canvas.Top="349" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center" TextChanged="txtWord_TextChanged"/>
+        <Label x:Name="lblNumberOfLetters" Content="Enter a number" Canvas.Left="348" Canvas.Top="345" HorizontalAlignment="Left" VerticalAlignment="Center" Width="93"/>
+        <TextBox x:Name="txtCharIndex" Canvas.Left="446" TextWrapping="Wrap" Text="" Canvas.Top="349" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnDisplayLetter" Content="Display Letter" Canvas.Left="216" Canvas.Top="390" HorizontalAlignment="Left" VerticalAlignment="Top" Width="213" Click="btnDisplayLetter_Click"/>
+        <TextBox x:Name="txtDisplayLetter" Canvas.Left="671" TextWrapping="Wrap" Text="" Canvas.Top="340" Width="77" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+    </Canvas>
+</Window>
